@@ -120,6 +120,7 @@ header .navbar {
 
 header .navbar .logo img {
     height: 50px;
+    width: auto;
 }
 
 header span {
@@ -145,7 +146,7 @@ header .form-select:focus{
     border-bottom: 1px #000 solid;
 }
 header span a {
-    font-size: 1.3em;
+    font-size: 1.7em;
     font-weight: 600;
     color: #000;
     text-decoration: none;
@@ -1213,7 +1214,7 @@ footer iframe{
     }
 
     header .navbar .logo img {
-        height: 20px;
+        height: 25px;
     }
     header .form-select{
         font-size: 0.8em;
