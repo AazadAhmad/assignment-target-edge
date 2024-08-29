@@ -12,10 +12,10 @@ html {
 
 body {
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #000;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #313030;
 }
 
 ul {
@@ -97,6 +97,9 @@ button.slick-prev.slick-arrow{
 figure{
     margin: 0;
 }
+textarea{
+    resize: none;
+}
 /* Global CSS end */
 
 /** Header Start **/
@@ -105,7 +108,7 @@ header {
     left: 0;
     right: 0;
     background: transparent;
-    padding: 2em 0;
+    padding: 1.8em 0;
 }
 
 header .navbar {
@@ -117,11 +120,11 @@ header .navbar .navbar-brand img {
 }
 
 header span {
-    font-size: 16px;
+    font-size: 0.9em;
 }
 
 header .form-select {
-    font-size: 1em;
+    font-size: 0.9em;
     border: none;
     border-bottom: 1px #000 solid;
     width: 110px;
@@ -137,7 +140,7 @@ header .form-select:focus{
     border-bottom: 1px #000 solid;
 }
 header span a {
-    font-size: 22px;
+    font-size: 1.3em;
     font-weight: 600;
     color: #000;
     text-decoration: none;
@@ -196,7 +199,7 @@ header span img {
 
 /** About Us Start **/
 .about p {
-    font-size: 24px;
+    font-size: 1.4em;
 }
 
 .about span {
@@ -222,12 +225,12 @@ header span img {
   }
 .choose-ride .cycle-box h3 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2.3em;
     text-transform: uppercase;
 }
 .choose-ride .cycle-box h4 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 2.3em;
     margin-top: 100px;
 }
 .choose-ride .cycle-box .main-img{
@@ -267,7 +270,7 @@ header span img {
 }
 
 .cycle-color .red-black {
-    background: linear-gradient(90deg, #000000 50%, #ff6724 50%);
+    background: linear-gradient(90deg, #ff6724 50%,  #323433  50%);
 }
 
 .t-c {
@@ -418,7 +421,7 @@ header span img {
 
 .buy-it h2 {
     font-weight: 800;
-    font-size: 30px;
+    font-size: 2em;
 }
 .buy-it .btn:hover{
     border: 1px #fff solid;
@@ -447,7 +450,7 @@ header span img {
     transition: 0.5s;
 }
 .local p {
-    font-size: 14px;
+    font-size: .9em;
     color: #fff;
     display: none;
 }
@@ -463,7 +466,7 @@ header span img {
     color: #000;
 }
 .local:hover .discription {
-    background: rgb(255 255 255 / 68%);
+    background: rgb(255 255 255 / 75%);
     height: 100%;
     top: unset;
     display: flex;
@@ -474,7 +477,7 @@ header span img {
 }
 .local .btn {
     background: transparent;
-    font-size: 12px;
+    font-size: 0.9em;
     text-transform: capitalize;
     padding: 0;
     border: none;
@@ -483,8 +486,8 @@ header span img {
     color: #000;
 }
 .discription svg {
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
 }
 /* Technical Features End */
 
@@ -495,14 +498,14 @@ header span img {
 .captipn-Carrier {
     position: absolute;
     top: 7%;
-    width: 30%;
+    width: 35%;
     right: 5%;
 }
 
 .LED-display{
     right: unset;
-    left: 6em;
-    top: 7em;
+    left: 9%;
+    top: 30%;
 }
 .captipn-Carrier.Bettary {
     position: static;
@@ -510,8 +513,8 @@ header span img {
     padding: 3em;
 }
 .captipn-Carrier h3, .Parking h3{
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: 700;
+    font-size: 2.5em;
 }
 .Parking{
     background: #dfdbdc;
@@ -520,7 +523,7 @@ header span img {
     padding: 2em 0;
 }
 .captipn-Carrier p{
-    font-size: 24px;
+    font-size: 1.7em;
     font-weight: 300;
 }
 /* Front & Rear Carrier End */
@@ -534,7 +537,7 @@ header span img {
     border-right: 1px solid #fff;
     text-align: center;
     font-weight: 600;
-    width: 25%;
+    /* width: 25%; */
 }
 .e-bikes-advantage th{
     border-bottom: 1px solid #bbbbbb;
@@ -561,6 +564,7 @@ header span img {
 }
 .e-bikes-advantage th:nth-child(1):before{
     content: unset;
+    width: 30%;
 }
 .e-bikes-advantage th:nth-child(2):before,
 .e-bikes-advantage th:nth-child(4):before{
@@ -587,6 +591,7 @@ header span img {
 }
 .e-bikes-advantage th:nth-child(4){
     border-right:none;
+    width: 20%;
 }
 .e-bikes-advantage td:nth-child(1){
     background: #838383;
@@ -631,7 +636,7 @@ header span img {
     padding: 0 50px;
 }
 .partners .slick-list{
-    margin-right: -1px;
+    margin:0 -1px;
 }
 .partners .item{
     padding: 0 40px;
@@ -676,7 +681,7 @@ header span img {
     font-size: 1em;
 }
 .content p {
-    font-size: 14px;
+    font-size: .8em;
     font-weight: 400;
 }
 .testimonials-slider ul.slick-dots {
@@ -718,7 +723,7 @@ header span img {
 }
 .lectro .item .btn {
     padding: 8px 13px;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 /* Latest Buzz End */
 
@@ -727,14 +732,14 @@ header span img {
 .get-in{
     background: #e1e1e1; 
 }
-textarea{
-    resize: none;
-}
+
 .get-in .form-control{
     color: #000;
+    padding: 15px;
 }
 .get-in .form-select{
-    color: #ccc;
+    /* color: #ccc; */
+    padding: 15px;
 }
 .get-in .form-control::placeholder {
     color: #ccc;
@@ -746,6 +751,9 @@ textarea{
   }
 .form-img {
     padding: 2em 5em;
+}
+.get-in .btn {
+    padding: 12px 30px;
 }
 /* Get in Touch End */
 
@@ -790,8 +798,7 @@ a.href:hover svg {
 }
 
 .terms li, .terms p {
-    font-size: 13px;
-    /* list-style: disc; */
+    font-size: 0.9em;
     margin: 0 5px;
     padding-left: 10px;
     color: #fff;
@@ -807,11 +814,179 @@ a.href:hover svg {
     left: 0;
     top: 8px;
 }
+footer iframe{
+    height: 350px;
+}
 /* Footer End */
 .mobile-block{
     display: none;
 }
-@media (max-width: 1024px) {
+
+@media only screen and (min-width:1920px) {
+    section {
+        padding: 90px 0;
+    }
+    .btn{
+        font-size: 1.3em;
+    }
+    .heading {
+        font-size: 4em;
+    }
+    .heading2 {
+        font-size: 2.8em;
+    }
+    label, .form-control{
+        font-size: 1.3em;
+    }
+    .h6, h6 {
+        font-size: 1.6rem;
+    }
+    button.slick-next.slick-arrow, button.slick-prev.slick-arrow{
+        width: 55px;
+        height: 55px;
+    }
+    button.slick-next.slick-arrow,
+    button.slick-prev.slick-arrow{
+        background-size: 55px;
+    }
+    
+    header .navbar .navbar-brand img {
+        height: 65px;
+    }
+    header span, header .form-select{
+        font-size: 1.3em;
+    }
+    header span a{
+        font-size: 1.5em;
+    }
+    .banner .caption h1{
+        font-size: 5em;
+    }
+    .banner .caption h5{
+        font-size: 3.2em;
+    }
+    .about p {
+        font-size: 1.7em;
+    }
+    .choose-ride .cycle-box h3{
+        font-size: 3em;
+    }
+    .indicate.one{
+        top: 1%;
+        right: 32%;
+    }
+    .indicate.two {
+        top: 16%;
+    }
+    .indicate.three {
+        top: 33.5%;
+    }
+    .indicate.forth{
+        top: 37%;
+    }
+    .indicate.fifth {
+        top: 39.7%;
+    }
+    .indicate.six {
+        bottom: 38.5%;
+    }
+    .indicate.seven{
+        bottom: 42.5%;
+    }
+
+    .cycle-color{
+        bottom: 160px;
+    }
+    .cycle-color .color {
+        height: 50px;
+        width: 50px;
+    }
+    .choose-ride .cycle-box h4{
+        font-size: 2.8em;
+    }
+    .technical-features{
+        padding: 50px 20px;
+    }
+    .technical-features ul li p{
+        font-size: 1.3em;
+    }
+    .buy-it h2{
+        font-size: 2.6em;
+    }
+    .local p, .local .btn{
+        font-size: 1.2em;
+    }
+    .captipn-Carrier {
+        top: 9%;
+        right: 13%;
+    }
+    .LED-display{
+        top: 28%;
+    }
+    .captipn-Carrier h3, .Parking h3{
+        font-size: 4em;
+    }
+    .captipn-Carrier p {
+        font-size: 2.5em;
+    }
+    .e-bikes-advantage th, .e-bikes-advantage td{
+        padding: 25px 30px;
+    }
+    .e-bikes-advantage th{
+        font-size: 1.6em;
+    }
+    .e-bikes-advantage td{
+        font-size: 1.4em;
+    }
+    .testimonials-slider .content h4 {
+        font-size: 1.8em;
+    }
+    .testimonials-slider .content h5 {
+        font-size: 1.3em;
+    }
+    .content p{
+        font-size: 1.2em;
+    }
+    .lectro .item .content h4 {
+        font-size: 1.4em;
+    }
+    .lectro .item .btn{
+        font-size: 0.9em;
+    }
+
+    .get-in .btn{
+        padding: 15px 35px;
+    }
+    footer h4{
+        font-size: 1.8em;
+    }
+    footer p{
+        font-size: 1.3em;
+    }
+    footer .download{
+        margin: 30px 0;
+    }
+    a.href{
+        width: 60px;
+        height: 60px;
+    }
+    a.href svg{
+        width: 30px;
+        height: 30px;
+    }
+    .terms li, .terms p{
+        font-size: 1.2em;
+    }
+    footer iframe{
+        height: 450px;
+    }
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1500px;
+    }
+}
+@media only screen and (max-width: 1024px) {
     header .navbar .navbar-brand img {
         height: 45px;
     }
@@ -869,7 +1044,7 @@ a.href:hover svg {
 
 }
 
-@media (max-width: 999px) {
+@media only screen and (max-width: 999px) {
     .cycle-box .indicate {
         display: none;
     }
@@ -877,7 +1052,8 @@ a.href:hover svg {
         height: auto;
     }
 }
-@media (max-width: 767px) {
+
+@media only screen and (max-width: 767px) {
     header .navbar .navbar-brand img {
         height: 20px;
     }
