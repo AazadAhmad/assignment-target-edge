@@ -42,7 +42,7 @@ a {
 
 .btn {
     background: #000;
-    padding: 10px 15px;
+    padding: 10px 30px;
     color: #fff;
     font-size: 1em;
     text-transform: uppercase;
@@ -121,11 +121,13 @@ header .navbar .navbar-brand img {
 
 header span {
     font-size: 0.9em;
+    font-weight: 500;
 }
 
 header .form-select {
     font-size: 0.9em;
     border: none;
+    font-weight: 500;
     border-bottom: 1px #000 solid;
     width: 110px;
     border-radius: 0;
@@ -200,6 +202,7 @@ header span img {
 /** About Us Start **/
 .about p {
     font-size: 1.4em;
+    line-height: 1.6;
 }
 
 .about span {
@@ -381,6 +384,7 @@ header span img {
 }
 .ind_one_line p{
     margin-bottom: 0;
+    font-size: 1.2em;
 }
 /**Choose your Ride End**/
 
@@ -422,6 +426,7 @@ header span img {
 .buy-it h2 {
     font-weight: 800;
     font-size: 2em;
+    line-height: 1.1;
 }
 .buy-it .btn:hover{
     border: 1px #fff solid;
@@ -453,6 +458,7 @@ header span img {
     font-size: .9em;
     color: #fff;
     display: none;
+    font-weight: 500;
 }
 .local:hover p {
     display: block;
@@ -524,7 +530,7 @@ header span img {
 }
 .captipn-Carrier p{
     font-size: 1.7em;
-    font-weight: 300;
+    font-weight: 400;
 }
 /* Front & Rear Carrier End */
 
@@ -826,18 +832,18 @@ footer iframe{
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1500px;
     }
-    
+
     section {
         padding: 90px 0;
     }
     .btn{
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
     .heading {
-        font-size: 4em;
+        font-size: 5em;
     }
     .heading2 {
-        font-size: 2.8em;
+        font-size: 3em;
     }
     label, .form-control{
         font-size: 1.3em;
@@ -853,7 +859,9 @@ footer iframe{
     button.slick-prev.slick-arrow{
         background-size: 55px;
     }
-    
+    header {
+        padding: 3.8em 0;
+    }  
     header .navbar .navbar-brand img {
         height: 65px;
     }
@@ -863,6 +871,9 @@ footer iframe{
     header span a{
         font-size: 1.5em;
     }
+    .banner{
+        padding-top: 15em;
+    }
     .banner .caption h1{
         font-size: 5em;
     }
@@ -870,7 +881,7 @@ footer iframe{
         font-size: 3.2em;
     }
     .about p {
-        font-size: 1.7em;
+        font-size: 2.2em;
     }
     .choose-ride .cycle-box h3{
         font-size: 3em;
@@ -912,13 +923,19 @@ footer iframe{
         padding: 50px 20px;
     }
     .technical-features ul li p{
-        font-size: 1.3em;
+        font-size: 1.7em;
+    }
+    .technical-features img {
+        width: 100px;
     }
     .buy-it h2{
-        font-size: 2.6em;
+        font-size: 3em;
+    }
+    .local p{
+        font-size: 1.5em;
     }
     .local p, .local .btn{
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
     .captipn-Carrier {
         top: 9%;
