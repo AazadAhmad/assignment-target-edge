@@ -433,6 +433,7 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
 
 .technical-features img {
     width: 65px;
+    height: auto;
     margin-bottom: 2em;
 }
 
@@ -1045,9 +1046,9 @@ footer iframe{
     .technical-features img {
         width: 45px;
     }
-    .buy-it h2 {
+    /* .buy-it h2 {
         font-size: 18px;
-    }
+    } */
     .captipn-Carrier {
         width: 50%;
     }
@@ -1152,6 +1153,19 @@ footer iframe{
     .comming-soon {
         top: -10px;
         width: 180px;
+    }
+    .buy-scroll{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        /* padding-bottom: 20px; */
+    }
+    .buy-scroll .col-sm-4{
+        width: 75%;
     }
     .local:hover p {
         height: 110px;
