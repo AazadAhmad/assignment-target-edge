@@ -118,7 +118,7 @@ header .navbar {
     padding: 0;
 }
 
-header .navbar .navbar-brand img {
+header .navbar .logo img {
     height: 50px;
 }
 
@@ -867,7 +867,7 @@ footer iframe{
     header {
         padding: 3.8em 0;
     }  
-    header .navbar .navbar-brand img {
+    header .navbar .logo img {
         height: 65px;
     }
     header span, header .form-select{
@@ -1009,7 +1009,7 @@ footer iframe{
 }
 
 @media only screen and (max-width: 1024px) {
-    header .navbar .navbar-brand img {
+    header .navbar .logo img {
         height: 45px;
     }
     .ind_one_line{
@@ -1054,7 +1054,7 @@ footer iframe{
         max-width: 100%;
         padding: 0 15px;
     }
-    header .navbar .navbar-brand img{
+    header .navbar .logo img{
         height: 40px;
     }
     .partners .item img {
@@ -1077,7 +1077,7 @@ footer iframe{
     .heading2 {
         font-size: 2.1em;
     }
-    header .navbar .navbar-brand img {
+    header .navbar .logo img {
         height: 35px;
     }
     header .form-select {
@@ -1210,7 +1210,7 @@ footer iframe{
         background-size: 30px;
     }
 
-    header .navbar .navbar-brand img {
+    header .navbar .logo img {
         height: 20px;
     }
     header .form-select{
