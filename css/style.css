@@ -1236,12 +1236,16 @@ footer iframe{
     .about p{
         font-size: 1.2em;
     }
+
+    .cycle-box .indicate{
+        display: none;
+    }
     .choose-ride .cycle-box h3{
         font-size: 1.3em;
     }
     .choose-ride .cycle-box h4{
         font-size: 2em;
-        margin-top: 200px;
+        margin-top: 170px;
     }
     .cycle-color{
         bottom: 100px;
