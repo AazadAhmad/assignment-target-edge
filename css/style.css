@@ -773,8 +773,9 @@ footer {
     padding: 70px 0;
 }
 footer h4, footer p{
-    color: #b7b7b7;
+    color: #b7b7b7 !important;
     line-height: 1.8;
+    text-decoration: none;
 }
 footer h4{
     text-transform: uppercase;
@@ -1047,18 +1048,7 @@ footer iframe{
 
 }
 
-@media only screen and (max-width: 991px) {
-    .container, .container-md, .container-sm {
-        max-width: 100%;
-        padding: 0 15px;
-    }
-    header .navbar .navbar-brand img{
-        height: 40px;
-    }
-    .partners .item img {
-        height: auto;
-    }
-}
+
 @media only screen and (max-width: 991px) {
     .container, .container-md, .container-sm {
         max-width: 100%;
