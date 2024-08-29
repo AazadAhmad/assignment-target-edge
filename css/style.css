@@ -124,12 +124,12 @@ header .navbar .logo img {
 }
 
 header span {
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 500;
 }
 
 header .form-select {
-    font-size: 0.9em;
+    font-size: 1em;
     border: none;
     font-weight: 500;
     border-bottom: 1px #000 solid;
@@ -180,7 +180,8 @@ header span img {
 
 /**Banner Start**/
 .banner {
-    background: #ccc;
+    background: rgb(188,190,189);
+background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 50%, rgba(188,190,189,1) 100%);
     overflow: hidden;
     padding-top: 10em;
 }
@@ -389,6 +390,14 @@ header span img {
 .ind_one_line p{
     margin-bottom: 0;
     font-size: 1.2em;
+}
+.comming-soon{
+    position: absolute;
+    right: 10px;
+    top: -16px;
+}
+.comming-soon img{
+   width: 100%;
 }
 /**Choose your Ride End**/
 
@@ -1140,6 +1149,10 @@ footer iframe{
         bottom: -102px;
         transform: rotate(360deg) scale(-1, 1);
     }
+    .comming-soon {
+        top: -10px;
+        width: 180px;
+    }
     .local:hover p {
         height: 110px;
         overflow: hidden;
@@ -1265,6 +1278,9 @@ footer iframe{
         right: 15px;
         bottom: 15px;
         font-size: 0.8em;
+    }
+    .comming-soon {
+        width: 150px;
     }
 
     .technical-features ul {
