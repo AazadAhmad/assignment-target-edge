@@ -1176,7 +1176,7 @@ footer iframe{
        display: unset !important;
     }
     .terms li, .terms p{
-        font-size: 0.8em;
+        font-size: 0.9em;
         display: inline-block;
     }
     
@@ -1341,4 +1341,5 @@ footer iframe{
         height: 250px;
         margin-top: 30px;
     }
+    
 }
