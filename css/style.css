@@ -1,0 +1,958 @@
+/* Global CSS start */
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+:after,
+:before {
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn {
+    background: #000;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn:hover{
+    border: 1px #000 solid;
+    color: #000;
+    background: transparent;
+}
+
+.heading {
+    font-size: 3em;
+    font-weight: 800;
+}
+.heading2 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 70px 0;
+}
+button.slick-next.slick-arrow,
+button.slick-prev.slick-arrow{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.7;
+}
+button.slick-next.slick-arrow{   
+    right: 0;
+    background: url(../img/chevron-right.svg) center no-repeat;
+    background-size: 40px;
+}
+button.slick-prev.slick-arrow{
+    left: 0;
+    background: url(../img/chevron-left.svg) center no-repeat;   
+    background-size: 40px; 
+}
+
+figure{
+    margin: 0;
+}
+/* Global CSS end */
+
+/** Header Start **/
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: transparent;
+    padding: 2em 0;
+}
+
+header .navbar {
+    padding: 0;
+}
+
+header .navbar .navbar-brand img {
+    height: 50px;
+}
+
+header span {
+    font-size: 16px;
+}
+
+header .form-select {
+    font-size: 1em;
+    border: none;
+    border-bottom: 1px #000 solid;
+    width: 110px;
+    border-radius: 0;
+    padding: 0 5px;
+    margin: 0 40px 0 20px;
+    background: transparent url(../img/down.svg) 95% no-repeat;
+    background-size: 10px;
+    cursor: pointer;
+}
+header .form-select:focus{
+    box-shadow: none;
+    border-bottom: 1px #000 solid;
+}
+header span a {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+header span img {
+    width: 24px;
+    vertical-align: sub;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    top: -100px;
+    left: 0;
+    right: 0;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+    z-index: 999;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .1);
+    padding: 0.5em 0;
+}
+
+/** Header End **/
+
+/**Banner Start**/
+.banner {
+    background: #ccc;
+    overflow: hidden;
+    padding-top: 10em;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .caption h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+.banner .caption h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+/**Banner End**/
+
+/** About Us Start **/
+.about p {
+    font-size: 24px;
+}
+
+.about span {
+    color: #ff0000;
+}
+
+.about strong:last-child {
+    display: block;
+}
+
+/** About Us End**/
+
+/**Choose your Ride Start**/
+.choose-ride {
+    background: #b7b7b7;
+}
+
+.choose-ride {
+    background: #b7b7b7;
+}
+.cycle-item {
+    display: none;
+  }
+.choose-ride .cycle-box h3 {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.choose-ride .cycle-box h4 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 100px;
+}
+.choose-ride .cycle-box .main-img{
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+.choose-ride .cycle-box .get-in-touch{
+    right: 0;
+    bottom: 90px;
+}
+
+.cycle-color{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 150px;
+    text-align: center;
+    width: 40%;
+}
+.cycle-color .color {
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cycle-color .color.active{
+    border: 2px solid #fff;
+}
+.cycle-color .white-blue {
+    background: linear-gradient(90deg, #ffffff 50%, #16296b 50%);
+}
+
+.cycle-color .red-black {
+    background: linear-gradient(90deg, #000000 50%, #ff6724 50%);
+}
+
+.t-c {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+.cycle-box .indicate {
+    position: absolute;
+    background: #fff;
+    /* top: 6em;
+    right: 21em; */
+    top: 0%;
+    right: 31%;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9;
+    text-align: center;
+}
+.cycle-box .indicate:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border: 2px #695353 solid;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    /* top: 10%;
+    right: 30%; */
+    margin: 0px auto;
+    right: 0;
+    border-radius: 50%;
+    z-index: -1;
+}
+.indicate.two {
+    left: 35%;
+    top: 14%;
+}
+.indicate.three {
+    left: 36.7%;
+    top: 31.5%;
+}
+.indicate.forth {
+    right: 9.4%;
+    top: 35%;
+}
+.forth .ind_one_line {
+    top: -245px;
+    transform: translate(-130%, 30px);
+}
+.forth .ind_one_line::before {
+    left: 85px;
+    bottom: -83px;
+    transform: rotate(360deg) scale(-1, 1);
+}
+.indicate.fifth {
+    left: 44.3%;
+    top: 37.7%;
+}
+.indicate.six {
+    right: 42.7%;
+    bottom: 40.5%;
+    top: unset;
+}
+.indicate.seven {
+    left: 14%;
+    bottom: 44.5%;
+    top: unset;
+}
+
+.ind_one_line{
+    background: rgb(236,241,245);
+    background: linear-gradient(-180deg, rgba(236,241,245,1) 0%, rgba(255,255,255,1) 100%);
+    width: 240px;
+    min-height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    margin: 0 5em;
+    display: none;
+    position: relative;
+    z-index: 99;
+    top: -230px;
+}
+.ind_one_line::before{
+    content: "";
+    background: url(../img/indicator-arrow.svg) center no-repeat;
+    width: 150px;
+    height: 80px;
+    background-size: 100%;
+    position: absolute;
+    left: -60px;
+    bottom: -95px;
+}
+.indicate:hover .ind_one_line{
+    display: block;
+}
+.ind_one_line h5{
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.ind_one_line p{
+    margin-bottom: 0;
+}
+/**Choose your Ride End**/
+
+/* Technical Features Start */
+.technical-features {
+    background: #efefef;
+    padding: 30px 20px;
+}
+
+.technical-features ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.technical-features ul li {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border-right: 1px #ccc solid;
+    width: 20%;
+    padding: 15px 5px;
+}
+
+.technical-features ul li:last-child {
+    border-right: none;
+}
+
+.technical-features ul li p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.technical-features img {
+    width: 65px;
+    margin-bottom: 2em;
+}
+
+.buy-it h2 {
+    font-weight: 800;
+    font-size: 30px;
+}
+.buy-it .btn:hover{
+    border: 1px #fff solid;
+    color: #fff;
+}
+
+/* .buy-it:before {
+    content: "";
+    background: linear-gradient(180deg, transparent 0%, #000000 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 120px;
+    width: 100%;
+    opacity: .7;
+    border-radius: 0 0 10px 10px;
+} */
+.discription {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to bottom, #00000000 0%, #000000 100%);
+    transition: 0.5s;
+}
+.local p {
+    font-size: 14px;
+    color: #fff;
+    display: none;
+}
+.local:hover p {
+    display: block;
+    color: #000;
+}
+.local h2{
+    color: #ffffff;
+    padding-right: 5em;
+}
+.local:hover h2{
+    color: #000;
+}
+.local:hover .discription {
+    background: rgb(255 255 255 / 68%);
+    height: 100%;
+    top: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 3em;
+}
+.local .btn {
+    background: transparent;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding: 0;
+    border: none;
+}
+.local:hover a.btn {
+    color: #000;
+}
+.discription svg {
+    width: 15px;
+    height: 15px;
+}
+/* Technical Features End */
+
+/* Front & Rear Carrier Start */
+.Front-cycle{
+    background: #efefef;
+}
+.captipn-Carrier {
+    position: absolute;
+    top: 7%;
+    width: 30%;
+    right: 5%;
+}
+
+.LED-display{
+    right: unset;
+    left: 6em;
+    top: 7em;
+}
+.captipn-Carrier.Bettary {
+    position: static;
+    width: 100%;
+    padding: 3em;
+}
+.captipn-Carrier h3, .Parking h3{
+    font-weight: 600;
+    font-size: 36px;
+}
+.Parking{
+    background: #dfdbdc;
+}
+.Parking h3 {
+    padding: 2em 0;
+}
+.captipn-Carrier p{
+    font-size: 24px;
+    font-weight: 300;
+}
+/* Front & Rear Carrier End */
+
+.e-bikes-advantage{
+    background: #efefef;
+}
+.e-bikes-advantage th,
+.e-bikes-advantage td{
+    padding:20px 25px;
+    border-right: 1px solid #fff;
+    text-align: center;
+    font-weight: 600;
+    width: 25%;
+}
+.e-bikes-advantage th{
+    border-bottom: 1px solid #bbbbbb;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    position: relative;
+    font-weight: 700;
+}
+.e-bikes-advantage th:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -8px;
+    filter: drop-shadow(0px 1px 0px #bbbbbb);
+    /* -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,1); */
+    /* -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,1); */
+    /* box-shadow: 1px 1px 1px 0px rgba(0,0,0,1); */
+}
+.e-bikes-advantage th:nth-child(1):before{
+    content: unset;
+}
+.e-bikes-advantage th:nth-child(2):before,
+.e-bikes-advantage th:nth-child(4):before{
+    border-top: 8px solid #ebebeb;
+}
+.e-bikes-advantage th:nth-child(3):before{
+    border-top: 8px solid #dadada;
+}
+.e-bikes-advantage td{
+    border-top: 1px solid #fff;
+    font-size: 1.1em;
+}
+.e-bikes-advantage th:nth-child(1){
+    background: #5c5c5c;
+    color: #fff;
+    text-align: left;
+}
+.e-bikes-advantage th:nth-child(2),
+.e-bikes-advantage th:nth-child(4){
+    background: #ebebeb;
+}
+.e-bikes-advantage th:nth-child(3){
+    background: #dadada;
+}
+.e-bikes-advantage th:nth-child(4){
+    border-right:none;
+}
+.e-bikes-advantage td:nth-child(1){
+    background: #838383;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    padding-left: 60px;
+}
+.e-bikes-advantage td:nth-child(1)::before,
+.e-bikes-advantage td:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.e-bikes-advantage td:nth-child(1)::before{
+    width: 16px;
+    height: 16px;
+    left: 30px;
+    border: 1px solid #fff;
+}
+.e-bikes-advantage td:nth-child(1)::after{
+    background: #fff;
+    width: 6px;
+    height: 6px;
+    left: 35px;
+}
+.e-bikes-advantage td:nth-child(2),
+.e-bikes-advantage td:nth-child(4){
+    background: #dfdbdc;
+}
+.e-bikes-advantage td:nth-child(3){
+    background: #c6c6c6;
+}
+.e-bikes-advantage td:nth-child(4){
+    border-right:none;
+}
+
+/* Partner Start */
+.partners{
+    padding: 0 50px;
+}
+.partners .slick-list{
+    margin-right: -1px;
+}
+.partners .item{
+    padding: 0 40px;
+    /* margin: 0 20px; */
+}
+.partners .item img{
+    width: 100%;
+    height: 40px;
+}
+.partners .item{
+    border-right: 1px #000 solid;
+}
+
+/* Partner End */
+
+/* Testimonials Start */
+.testimonials{
+    background: #efefef;
+}
+.testimonials-slider {
+    padding: 0 70px;
+}
+.testimonials-slider .item, .lectro .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding: 20px;
+}
+.content h4, 
+.content h5, 
+.content p{
+  font-style: italic;  
+  font-weight: 600;
+}
+.testimonials-slider .content h4 {
+    font-size: 1.4em;
+}
+.testimonials-slider .content h5 {
+    font-size: 1em;
+}
+.content p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.testimonials-slider ul.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials-slider li button {
+    padding: 0;
+    border: 0;
+    width: 6px;
+    height: 6px;
+    background: #ccc;
+    margin: 0 8px;
+    font-size: 0;
+}
+.testimonials-slider li.slick-active button {
+    background: #fdba00;
+}
+
+/* Testimonials End */
+
+
+/* Latest Buzz Start */
+.lectro {
+    padding: 0 50px;
+}
+.lectro .item{
+    background: #dfdbdc;
+    margin:0 10px;
+}
+.lectro .item .content{
+    padding: 0 15px;
+}
+.lectro .item .content h4{
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+.lectro .item .btn {
+    padding: 8px 13px;
+    font-size: 12px;
+}
+/* Latest Buzz End */
+
+
+/* Get in Touch Start */
+.get-in{
+    background: #e1e1e1; 
+}
+textarea{
+    resize: none;
+}
+.get-in .form-control{
+    color: #000;
+}
+.get-in .form-select{
+    color: #ccc;
+}
+.get-in .form-control::placeholder {
+    color: #ccc;
+    opacity: 1; /* Firefox */
+  }
+  
+  .get-in .form-control::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #ccc;
+  }
+.form-img {
+    padding: 2em 5em;
+}
+/* Get in Touch End */
+
+/* Footer Start */
+footer {
+    background: #111;
+    padding: 70px 0;
+}
+footer h4, footer p{
+    color: #b7b7b7;
+    line-height: 1.8;
+}
+footer h4{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+.download h5{
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+a.href {
+    border: 1px #ccc solid;
+    border-radius: 50%;
+    margin: 0 6px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+a.href:hover {
+    background: #fff;
+}
+a.href:hover svg {
+    fill: #000;
+}
+.terms{
+    background: #000;
+}
+
+.terms li, .terms p {
+    font-size: 13px;
+    /* list-style: disc; */
+    margin: 0 5px;
+    padding-left: 10px;
+    color: #fff;
+    position: relative;
+}
+.terms li::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    left: 0;
+    top: 8px;
+}
+/* Footer End */
+.mobile-block{
+    display: none;
+}
+@media (max-width: 1024px) {
+    header .navbar .navbar-brand img {
+        height: 45px;
+    }
+    .ind_one_line{
+        top: -220px;
+    }
+    .ind_one_line::before {
+        bottom: -85px;
+    }
+    /* .cycle-box .indicate {
+        top: 5em;
+        right: 17.5em;
+    }
+    .indicate.two {
+        left: 18.5em;
+        top: 8.3em;
+    }
+    .indicate.three {
+        left: 19.5em;
+        top: 16.5em;
+    }
+    .indicate.forth {
+        left: 23.8em;
+        top: 19.5em;
+    }
+    .indicate.fifth {
+        right: 12em;
+        top: 15.5em;
+    }
+    .indicate.six {
+        right: 26em;
+        top: 26.8em;
+    }
+    .indicate.seven {
+        left: 12em;
+        bottom: 20.5em;
+        top: unset;
+    } */
+
+    .technical-features img {
+        width: 45px;
+    }
+    .buy-it h2 {
+        font-size: 18px;
+    }
+    .captipn-Carrier {
+        width: 50%;
+    }
+    .e-bikes-advantage th {
+        font-size: 1.1em;
+    }
+    .form-img {
+        padding: 2em;
+    }
+
+}
+
+@media (max-width: 999px) {
+    .cycle-box .indicate {
+        display: none;
+    }
+    .partners .item img {
+        height: auto;
+    }
+}
+@media (max-width: 767px) {
+    header .navbar .navbar-brand img {
+        height: 20px;
+    }
+    header .form-select{
+        font-size: 0.8em;
+        width: 90px;
+        padding: 0 5px;
+        margin: 0 0 0 10px;
+    }
+    header span {
+        font-size: 0.8em;
+    }
+    .d-xs-none{
+        display: none;
+    }
+    .mobile-block {
+        display: block;
+        width: 70px;
+        height: 70px;
+        background: #2b8ff4;
+        position: fixed;
+        right: 0;
+        bottom: 10%;
+        padding: 20px;
+        z-index: 999;
+        border-radius: 50%;
+    }
+    .banner .caption h1 {
+        font-size: 2.5em;
+    }
+    .banner .caption h5 {
+        font-size: 1.3em;
+    }
+    .heading {
+        font-size: 2em;
+    }
+    .heading2 {
+        font-size: 2em;
+    }
+    .captipn-Carrier {
+        position: static;
+        top: 0;
+        width: 100%;
+        right: 0;
+        background: #efefef;
+        padding: 20px;
+    }
+    .technical-features ul {
+        flex-wrap: wrap;
+    }
+    .technical-features ul li {
+        border-right: 1px #ccc solid;
+        width: 50%;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .technical-features ul li:nth-child(2), .technical-features ul li:nth-child(4) {
+        border-right: none;
+    }
+    .buy-it{
+        margin-bottom: 25px;
+    }
+    .captipn-Carrier.Bettary {
+        padding: 01em 0;
+    }
+    .Quick {
+        flex-direction: column-reverse;
+    }
+    /* .partners {
+        padding: 0 30px;
+    } */
+    .lectro {
+        padding: 0 35px;
+    }
+    .lectro .item .content {
+        padding: 20px 15px;
+    }
+}
