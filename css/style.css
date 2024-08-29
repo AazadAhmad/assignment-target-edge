@@ -100,6 +100,9 @@ figure{
 textarea{
     resize: none;
 }
+label{
+    font-weight: 500;
+}
 /* Global CSS end */
 
 /** Header Start **/
@@ -281,7 +284,7 @@ header span img {
     right: 30px;
     bottom: 30px;
     display: block;
-    font-size: 14px;
+    font-size: 0.8em;
     font-weight: 600;
 }
 .cycle-box .indicate {
@@ -650,7 +653,6 @@ header span img {
 }
 .partners .item img{
     width: 100%;
-    height: 40px;
 }
 .partners .item{
     border-right: 1px #000 solid;
@@ -672,7 +674,7 @@ header span img {
 }
 
 .content {
-    padding: 20px;
+    padding: 20px 45px;
 }
 .content h4, 
 .content h5, 
@@ -693,6 +695,7 @@ header span img {
 .testimonials-slider ul.slick-dots {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .testimonials-slider li button {
@@ -720,7 +723,7 @@ header span img {
     margin:0 10px;
 }
 .lectro .item .content{
-    padding: 0 15px;
+    padding: 0 20px;
 }
 .lectro .item .content h4{
     text-transform: uppercase;
@@ -760,6 +763,7 @@ header span img {
 }
 .get-in .btn {
     padding: 12px 30px;
+    margin-top: 20px;
 }
 /* Get in Touch End */
 
@@ -778,8 +782,8 @@ footer h4{
     font-size: 1.2em;
 }
 .download h5{
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 1.6em;
+    font-weight: 400;
     text-transform: uppercase;
 }
 a.href {
@@ -824,7 +828,7 @@ footer iframe{
     height: 350px;
 }
 /* Footer End */
-.mobile-block{
+.mobile-contact{
     display: none;
 }
 
@@ -833,14 +837,14 @@ footer iframe{
         max-width: 1500px;
     }
 
-    section {
+    section,footer {
         padding: 90px 0;
     }
     .btn{
         font-size: 1.5em;
     }
     .heading {
-        font-size: 5em;
+        font-size: 4.3em;
     }
     .heading2 {
         font-size: 3em;
@@ -875,7 +879,7 @@ footer iframe{
         padding-top: 15em;
     }
     .banner .caption h1{
-        font-size: 5em;
+        font-size: 6.5em;
     }
     .banner .caption h5{
         font-size: 3.2em;
@@ -951,28 +955,28 @@ footer iframe{
         font-size: 2.5em;
     }
     .e-bikes-advantage th, .e-bikes-advantage td{
-        padding: 25px 30px;
+        padding: 30px 35px;
     }
     .e-bikes-advantage th{
-        font-size: 1.6em;
-    }
-    .e-bikes-advantage td{
-        font-size: 1.4em;
-    }
-    .testimonials-slider .content h4 {
         font-size: 1.8em;
     }
+    .e-bikes-advantage td{
+        font-size: 1.6em;
+    }
+    .testimonials-slider .content h4 {
+        font-size: 2em;
+    }
     .testimonials-slider .content h5 {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
     .content p{
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
     .lectro .item .content h4 {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
     .lectro .item .btn{
-        font-size: 0.9em;
+        font-size: 1.1em;
     }
 
     .get-in .btn{
@@ -1013,36 +1017,18 @@ footer iframe{
     .ind_one_line::before {
         bottom: -85px;
     }
-    /* .cycle-box .indicate {
-        top: 5em;
-        right: 17.5em;
+    .choose-ride .cycle-box .main-img {
+        margin-top: -35px;
     }
-    .indicate.two {
-        left: 18.5em;
-        top: 8.3em;
-    }
-    .indicate.three {
-        left: 19.5em;
-        top: 16.5em;
+    .indicate.one {
+        top: 1%;
     }
     .indicate.forth {
-        left: 23.8em;
-        top: 19.5em;
-    }
-    .indicate.fifth {
-        right: 12em;
-        top: 15.5em;
+        top: 34%;
     }
     .indicate.six {
-        right: 26em;
-        top: 26.8em;
+        bottom: 41.5%;
     }
-    .indicate.seven {
-        left: 12em;
-        bottom: 20.5em;
-        top: unset;
-    } */
-
     .technical-features img {
         width: 45px;
     }
@@ -1061,16 +1047,179 @@ footer iframe{
 
 }
 
-@media only screen and (max-width: 999px) {
-    .cycle-box .indicate {
-        display: none;
+@media only screen and (max-width: 991px) {
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    header .navbar .navbar-brand img{
+        height: 40px;
     }
     .partners .item img {
         height: auto;
     }
 }
+@media only screen and (max-width: 991px) {
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    header .navbar .navbar-brand img{
+        height: 40px;
+    }
+    .partners .item img {
+        height: auto;
+    }
+    .captipn-Carrier h3, .Parking h3 {
+        font-size: 2.2em;
+    }
+    .captipn-Carrier p {
+        font-size: 1.4em;
+    }
+}
+@media only screen and (max-width: 820px) {
+    section,footer {
+        padding: 50px 0;
+    }
+    .heading {
+        font-size: 2.5em;
+    }
+    .heading2 {
+        font-size: 2.1em;
+    }
+    header .navbar .navbar-brand img {
+        height: 35px;
+    }
+    header .form-select {
+        width: 90px;        
+        margin: 0 30px 0 15px;
+    }
+    header span img {
+        width: 20px;
+    }
+    header span a {
+        font-size: 1.2em;
+    }
+    .banner .caption h1 {
+        font-size: 3.5em;
+    }
+    .ind_one_line {
+        top: -195px;
+        padding: 10px;
+        width: 220px;
+        min-height: 125px;
+    }
+    .ind_one_line h5 {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+    .ind_one_line p {
+        font-size: 1em;
+    }
+    .indicate.three {
+        top: 29.5%;
+    }
+    .indicate.forth {
+        top: 32%;
+    }
+    .indicate.fifth {
+        top: 34.7%;
+    }
+    .indicate.six {
+        bottom: 44.5%;
+    }
+    .indicate.seven {
+        bottom: 48.5%;
+    }
+    .ind_one_line::before {
+        bottom: -85px;
+    }
+    .ind_one_line::before {
+        width: 120px;
+        height: 70px;
+    }
+    .one .ind_one_line{
+        top: -245px;
+        transform: translate(-130%, 30px);
+    }
+    .one .ind_one_line::before {
+        left: 85px;
+        bottom: -102px;
+        transform: rotate(360deg) scale(-1, 1);
+    }
+    .local:hover p {
+        height: 110px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+    }
+    .e-bikes-advantage th, 
+    .e-bikes-advantage td {
+        padding: 20px 15px;
+    }
+    .download h5 {
+        font-size: 1.2em;
+    }
+    footer h4 {
+        font-size: 1em;
+    }
+    a.href {
+        width: 30px;
+        height: 30px;
+    }
+    a.href svg {
+        width: 15px;
+        height: 15px;
+    }
+    .terms ul.d-flex{
+       display: unset !important;
+    }
+    .terms li, .terms p{
+        font-size: 0.8em;
+        display: inline-block;
+    }
+    
+    
+}
 
 @media only screen and (max-width: 767px) {
+    .d-xs-none{
+        display: none;
+    }
+    .mobile-contact {
+        display: block;
+        width: 45px;
+        height: 45px;
+        background: #2b8ff4;
+        position: fixed;
+        right: 15px;
+        bottom: 15px;
+        padding: 13px;
+        z-index: 999;
+        border-radius: 50%;
+    }
+    .heading {
+        font-size: 2em;
+    }
+    .heading.mb-5 {
+        margin-bottom:1.5rem !important;
+    }
+    .heading2 {
+        font-size: 2em;
+    }
+    .heading2.mb-5 {
+        margin-bottom:1.5rem !important;
+    }
+    .partners .item {
+        padding: 0 10px;
+    }
+    button.slick-next.slick-arrow, button.slick-prev.slick-arrow {
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
+    }
+
     header .navbar .navbar-brand img {
         height: 20px;
     }
@@ -1080,44 +1229,46 @@ footer iframe{
         padding: 0 5px;
         margin: 0 0 0 10px;
     }
-    header span {
-        font-size: 0.8em;
+    .banner{
+        padding-top: 8em;
     }
-    .d-xs-none{
-        display: none;
-    }
-    .mobile-block {
-        display: block;
-        width: 70px;
-        height: 70px;
-        background: #2b8ff4;
-        position: fixed;
-        right: 0;
-        bottom: 10%;
-        padding: 20px;
-        z-index: 999;
-        border-radius: 50%;
+    .banner .caption{
+        margin-bottom:40px;
     }
     .banner .caption h1 {
-        font-size: 2.5em;
+        font-size: 1.8em;
     }
     .banner .caption h5 {
+        font-size: 1.2em;
+    }
+    .about p{
+        font-size: 1.2em;
+    }
+    .choose-ride .cycle-box h3{
         font-size: 1.3em;
     }
-    .heading {
+    .choose-ride .cycle-box h4{
         font-size: 2em;
+        margin-top: 200px;
     }
-    .heading2 {
-        font-size: 2em;
+    .cycle-color{
+        bottom: 100px;
     }
-    .captipn-Carrier {
-        position: static;
-        top: 0;
-        width: 100%;
+    .choose-ride .cycle-box .main-img {
+        margin-top: 0;
+    }
+    .choose-ride .cycle-box .get-in-touch {
         right: 0;
-        background: #efefef;
-        padding: 20px;
+        bottom: 120px;
+        left: 0;
+        margin: auto;
+        max-width: 180px;
     }
+    .t-c{
+        right: 15px;
+        bottom: 15px;
+    }
+
     .technical-features ul {
         flex-wrap: wrap;
     }
@@ -1133,19 +1284,61 @@ footer iframe{
     .buy-it{
         margin-bottom: 25px;
     }
+    .captipn-Carrier {
+        position: static;
+        top: 0;
+        width: 100%;
+        right: 0;
+        background: #efefef;
+        padding: 25px 15px;
+    }
+    .captipn-Carrier h3, .Parking h3 {
+        font-size: 1.7em;
+    }
+    .captipn-Carrier p{
+        font-size: 1.2em;
+    }
     .captipn-Carrier.Bettary {
-        padding: 01em 0;
+        padding: 1em 0;
     }
     .Quick {
         flex-direction: column-reverse;
     }
-    /* .partners {
-        padding: 0 30px;
-    } */
     .lectro {
         padding: 0 35px;
     }
     .lectro .item .content {
         padding: 20px 15px;
+    }
+    .e-bikes-advantage th, .e-bikes-advantage td {
+        padding: 15px 10px;
+    }
+    .e-bikes-advantage th {
+        font-size: 0.9em;
+    }
+    .e-bikes-advantage td {
+        font-size: 0.9em;
+    }
+    .e-bikes-advantage td:nth-child(1){
+        padding-left: 30px;
+    }
+    .e-bikes-advantage td:nth-child(1)::before{
+        left: 10px;
+    }
+    .e-bikes-advantage td:nth-child(1)::after{
+        left: 15px;
+    }
+    .testimonials-slider {
+        padding: 0 40px;
+    }
+    .testimonials-slider ul.slick-dots {
+        margin-top: 0;
+    }    
+    .content {
+        padding: 20px 15px;
+    }
+    footer iframe {
+        height: 250px;
+        margin-top: 30px;
     }
 }
