@@ -823,6 +823,10 @@ footer iframe{
 }
 
 @media only screen and (min-width:1920px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1500px;
+    }
+    
     section {
         padding: 90px 0;
     }
@@ -981,11 +985,7 @@ footer iframe{
         height: 450px;
     }
 }
-@media (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1500px;
-    }
-}
+
 @media only screen and (max-width: 1024px) {
     header .navbar .navbar-brand img {
         height: 45px;
