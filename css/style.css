@@ -173,7 +173,7 @@ header span img {
     transform: translateY(100px);
     z-index: 999;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .1);
-    padding: 0.5em 0;
+    padding: 1.2em 0;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
@@ -1166,6 +1166,9 @@ footer iframe{
     .buy-scroll .col-sm-4{
         width: 75%;
     }
+    .local p{
+        font-size: 1em;
+    }
     .local:hover p {
         height: 110px;
         overflow: hidden;
@@ -1246,7 +1249,6 @@ footer iframe{
         height: 25px;
     }
     header .form-select{
-        font-size: 0.8em;
         width: 90px;
         padding: 0 5px;
         margin: 0 0 0 10px;
