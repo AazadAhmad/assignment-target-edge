@@ -291,11 +291,8 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
     font-size: 1em;
     font-weight: 600;
 }
-.cycle-box .indicate {
+.cycle-box .indicate{
     position: absolute;
-    background: #fff;
-    /* top: 6em;
-    right: 21em; */
     top: 0%;
     right: 31%;
     width: 21px;
@@ -305,6 +302,26 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
     z-index: 9;
     text-align: center;
 }
+.cycle-box .indicate::after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    top: 0%;
+    right: 0;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    z-index: 1;
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
 .cycle-box .indicate:before {
     content: "";
     width: 15px;
@@ -314,13 +331,12 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
     position: absolute;
     top: 3px;
     left: 0;
-    /* top: 10%;
-    right: 30%; */
     margin: 0px auto;
     right: 0;
     border-radius: 50%;
-    z-index: -1;
+    z-index: 9;
 }
+
 .indicate.two {
     left: 35%;
     top: 14%;
@@ -1224,6 +1240,48 @@ footer iframe{
         z-index: 999;
         border-radius: 50%;
     }
+
+    .mobile-contact::after {
+        position: absolute;
+        content: " ";
+        z-index: -1;
+        top: -10px;
+        left: -10px;
+        background-color: #2b8ff4;
+        width: 65px;
+        height: 65px;
+        border-radius: 100%;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+        opacity: 0.6;
+        -webkit-animation: pulse 1s ease-out;
+        animation: pulse 1.8s ease-out;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+    }
+    @-webkit-keyframes pulse {
+        0% {
+            -webkit-transform: scale(0);
+            opacity: 0;
+        }
+        25% {
+            -webkit-transform: scale(0.3);
+            opacity: 1;
+        }
+        50% {
+            -webkit-transform: scale(0.6);
+            opacity: .6;
+        }
+        75% {
+            -webkit-transform: scale(0.9);
+            opacity: .3;
+        }
+        100% {
+            -webkit-transform: scale(1);
+            opacity: 0;
+        }
+    }
+
     .heading {
         font-size: 2em;
     }
