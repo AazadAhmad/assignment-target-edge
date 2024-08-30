@@ -177,7 +177,6 @@ header span img {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
-
 /** Header End **/
 
 /**Banner Start**/
@@ -465,19 +464,6 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
     color: #fff;
 }
 
-/* .buy-it:before {
-    content: "";
-    background: linear-gradient(180deg, transparent 0%, #000000 100%);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: 120px;
-    width: 100%;
-    opacity: .7;
-    border-radius: 0 0 10px 10px;
-} */
 .discription {
     position: absolute;
     bottom: 0;
@@ -575,7 +561,6 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
     border-right: 1px solid #fff;
     text-align: center;
     font-weight: 600;
-    /* width: 25%; */
 }
 .e-bikes-advantage th{
     border-bottom: 1px solid #bbbbbb;
@@ -596,9 +581,6 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
     margin: auto;
     bottom: -8px;
     filter: drop-shadow(0px 1px 0px #bbbbbb);
-    /* -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,1); */
-    /* -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,1); */
-    /* box-shadow: 1px 1px 1px 0px rgba(0,0,0,1); */
 }
 .e-bikes-advantage th:nth-child(1):before{
     content: unset;
@@ -678,7 +660,6 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
 }
 .partners .item{
     padding: 0 40px;
-    /* margin: 0 20px; */
 }
 .partners .item img{
     width: 100%;
@@ -686,7 +667,6 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
 .partners .item{
     border-right: 1px #000 solid;
 }
-
 /* Partner End */
 
 /* Testimonials Start */
@@ -739,7 +719,6 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
 .testimonials-slider li.slick-active button {
     background: #fdba00;
 }
-
 /* Testimonials End */
 
 
@@ -770,13 +749,11 @@ background: linear-gradient(90deg, rgba(188,190,189,1) 0%, rgba(207,208,210,1) 5
 .get-in{
     background: #e1e1e1; 
 }
-
 .get-in .form-control{
     color: #000;
     padding: 15px;
 }
 .get-in .form-select{
-    /* color: #ccc; */
     padding: 15px;
 }
 .get-in .form-control::placeholder {
@@ -805,9 +782,7 @@ footer h4, footer p, footer p a{
     color: #b7b7b7 ;
     line-height: 1.8;
 }
-footer p a{
 
-}
 footer h4{
     text-transform: uppercase;
     font-weight: 800;
@@ -868,7 +843,9 @@ footer iframe{
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1500px;
     }
-
+    .sticky {
+        padding: 2em 0;
+    }
     section,footer {
         padding: 90px 0;
     }
@@ -1177,7 +1154,6 @@ footer iframe{
         flex-wrap: nowrap;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        /* padding-bottom: 20px; */
     }
     .buy-scroll .col-sm-4{
         width: 75%;
@@ -1220,7 +1196,6 @@ footer iframe{
         font-size: 0.9em;
         display: inline-block;
     }
-    
     
 }
 
